@@ -1,7 +1,15 @@
 
 @font-face {
   font-family: 'IM Fell DW Pica';
-  src: url('IMFellDWPicaSC-Regular.ttf');
+  src: url('IM_Fell_DW_Pica/IMFellDWPica-Regular.ttf') format ('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IM Fell DW Pica';
+   src: url('IM_Fell_DW_Pica/IMFellDWPica-Italic.ttf') format('truetype');
+   font-weight: normal;
+   font-style: italic;
 }
 
 body {
@@ -13,7 +21,10 @@ body {
   min-height: 100vh;
   text-align: center;
   font-family: "IM Fell DW Pica", serif;
+  font-style: normal;
 }
+
+cite {font-style: italic;}
 
 span[lang='de'] {font-style: italic;}
 
