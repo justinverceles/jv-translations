@@ -18,6 +18,7 @@ body {
 h1 {
   font-weight: normal;
   font-size: 1.77rem;
+  margin-block-end: 0;
 }
 
 header {
@@ -28,6 +29,17 @@ header {
 header > p {
   font-size: 1.27rem;
   margin: 0;
+}
+
+header > p.subtitle {
+  margin: 0;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.27rem;
+}
+
+header > p.author {
+  margin-block-start: 1.186rem;
 }
 
 main > p {
