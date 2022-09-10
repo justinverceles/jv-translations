@@ -29,14 +29,16 @@ cite {font-style: italic;}
 span[lang='de'] {font-style: italic;}
 
 header {margin: 2em 0;}
-main {margin: 0 2em;}
+main {
+  margin: 0 2em;
+  text-align: left;
+}
 img {width: 15.3rem;}
 
-dt {margin-top: 1em;}
-dd {
-  display: block;
-  margin: 0.25em 0.5em;
-
+ol {padding: 0}
+li {
+  list-style-type: none;
+  margin: 0.4em 0.5em;
 }
 
 
