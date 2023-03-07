@@ -66,6 +66,13 @@ hr {
   text-align: center;
 }
 
+.poem {
+  text-indent: 0;
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 35rem) {
   body {
     width: 90vw;
