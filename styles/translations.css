@@ -54,6 +54,18 @@ main {
   hyphens: auto;
 }
 
+hr {
+  border: none;
+  margin: 2em 0;
+  overflow: hidden;
+} hr::after {
+  content: "..........................";
+  letter-spacing: 0.8em;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
 @media screen and (max-width: 35rem) {
   body {
     width: 90vw;
