@@ -28,13 +28,13 @@ cite {font-style: italic;}
 
 span[lang='de'] {font-style: italic;}
 
-header {margin: 3em 0;}
+header, footer {margin: 3em 0;}
 main {
-  margin: 0 2em 2em 2em;
+  margin: 0 2em 0 2em;
   text-align: left;
 }
-img {width: 15.3rem;}
-
+header img {width: 15.3rem;}
+footer img {width: 5rem;}
 td {
   vertical-align: top;
   padding: 0.07em 0.2em;
